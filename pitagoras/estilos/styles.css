@@ -1,0 +1,223 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    align-content: flex-end ;
+}
+header {
+    background-color: #d92e2e;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+nav {
+    background-color: #ac1b1b;
+    text-align: center;
+    padding: 10px 0;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    font-size: 18px;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+img{
+    max-width: 100%; /* Establece el ancho máximo de la imagen */
+    height: auto;
+}
+#pitagoras{
+    width: 100%;
+    align-items: center
+
+}
+
+#imgpitagoras{
+    width: 30%;
+    align-content: center;
+
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+
+#piedepagina{
+    background-color: #ac1b1b;
+}
+
+/*historieta*/
+.comic-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#comic {
+    position: relative;
+}
+
+#imagen-comic {
+    max-width: 100%;
+}
+
+#informacion {
+    background-color: #f9f9f9;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilos CSS para la interfaz del chat */
+.chat-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Estilos para el chat interactivo */
+.chat-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.chat-header {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.chat-messages {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.chat-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+#user-input {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#send-button {
+    width: 28%;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#imagen-comic{
+    width: 40%;
+    align-items:end ;
+    position: justify;
+}
+
+#informacion{
+    justify-content: space-between;
+    max-width: 30% ; 
+    min-height: 30%;  
+    position: justify;
+}
+
+#h3{
+text-align: end;
+}
+
+/* styles.css */
+.carousel {
+    width: 300px;
+    overflow: hidden;
+    position: center;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    position: center;
+}
+
+#historieta2{
+    position: end;
+    height: 80%;
+    width: 80%;
+}
+
+#chat-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#chat-messages {
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#user-input {
+    width: 100%;
+    padding: 5px;
+}
