@@ -1,1 +1,1 @@
-# pitagoras1
+# pit-goras
